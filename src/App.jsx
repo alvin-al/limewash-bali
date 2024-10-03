@@ -13,7 +13,7 @@ function App() {
         <div className='flex justify-between w-full p-4 lg:px-24'>
           {/* Logo */}
           <div>
-            <img src='/src/assets/limewash-logo.svg' />
+            <img src='http://limewashbali.com/wp-content/uploads/2024/10/limewash-logo.svg' />
           </div>
           <div>
             <a
