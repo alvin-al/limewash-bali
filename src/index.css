@@ -21,13 +21,13 @@ body {
 }
 
 .bg-top {
-  background-image: url("public/assets/top-bg.webp");
+  background-image: url("/public/assets/top-bg.webp");
   background-size: cover;
   background-position: center;
 }
 
 .bg-bottom {
-  background-image: url("public/assets/bot-bg.webp");
+  background-image: url("/public/assets/bot-bg.webp");
   background-size: cover;
   background-position: center;
 }
