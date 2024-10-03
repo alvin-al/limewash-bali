@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import limewashLogo from "/src/assets/limewash-logo.svg";
 import instagram from "/src/assets/icons/instagram.svg";
 import BenefitList from "./component/BenefitList.jsx";
 import Form from "./component/Form.jsx";
@@ -14,7 +13,7 @@ function App() {
         <div className='flex justify-between w-full p-4 lg:px-24'>
           {/* Logo */}
           <div>
-            <img src={limewashLogo} alt='' className='' />
+            <img src='/src/assets/limewash-logo.svg' />
           </div>
           <div>
             <a
