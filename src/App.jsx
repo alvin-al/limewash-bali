@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import limewashLogo from "./assets/limewash-logo.svg";
-import instagram from "./assets/icons/instagram.svg";
+import limewashLogo from "/src/assets/limewash-logo.svg";
+import instagram from "/src/assets/icons/instagram.svg";
 import BenefitList from "./component/BenefitList.jsx";
 import Form from "./component/Form.jsx";
 
