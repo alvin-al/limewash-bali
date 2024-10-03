@@ -46,7 +46,7 @@ https://www.instagram.com/limewashbali/'
       </div>
       {/* Section 2 */}
       <div className='py-6 xl:my-24'>
-        <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12'>
+        <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12 xl:mb-24'>
           Why Limewash?
         </h2>
         <div className='flex  items-center lg:px-24'>
