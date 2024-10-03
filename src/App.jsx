@@ -2,12 +2,12 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import backgroundImage from "./assets/limewash-bg.png";
+import backgroundImage from "./assets/limewash-bg.webp";
 import limewashLogo from "./assets/limewash-logo.svg";
 import instagram from "./assets/icons/instagram.svg";
-import Form from "./component/Form.jsx";
+import bottomBackground from "./assets/bottom-bg.webp";
 import BenefitList from "./component/BenefitList.jsx";
-import bottomBackground from "./assets/bottom-bg.svg";
+import Form from "./component/Form.jsx";
 
 function App() {
   return (
