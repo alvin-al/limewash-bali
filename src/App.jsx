@@ -7,6 +7,7 @@ import limewashLogo from "./assets/limewash-logo.svg";
 import instagram from "./assets/icons/instagram.svg";
 import Form from "./component/Form.jsx";
 import BenefitList from "./component/BenefitList.jsx";
+import bottomBackground from "./assets/bottom-bg.svg";
 
 function App() {
   return (
@@ -46,7 +47,10 @@ https://www.instagram.com/limewashbali/'
         </div>
       </div>
       {/* Section 2 */}
-      <div className='py-6 xl:my-24'>
+      <div
+        className='py-6 xl:py-24 bg-cover'
+        style={{ backgroundImage: `url(${bottomBackground})` }}
+      >
         <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12 xl:mb-24 inter'>
           Why Limewash?
         </h2>
