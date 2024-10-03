@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,13 +21,13 @@ body {
 }
 
 .bg-top {
-  background-image: url("src/assets/limewash-bg.webp"); /* Ganti dengan path yang benar */
+  background-image: url("public/assets/top-bg.webp");
   background-size: cover;
   background-position: center;
 }
 
 .bg-bottom {
-  background-image: url("src/assets/bottom-bg.webp"); /* Ganti dengan path yang benar */
+  background-image: url("public/assets/bot-bg.webp");
   background-size: cover;
   background-position: center;
 }

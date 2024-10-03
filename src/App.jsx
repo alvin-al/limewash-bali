@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import limewashLogo from "./assets/limewash-logo.svg";
 import instagram from "./assets/icons/instagram.svg";
-import bottomBackground from "./assets/bottom-bg.webp";
 import BenefitList from "./component/BenefitList.jsx";
 import Form from "./component/Form.jsx";
 
@@ -41,10 +40,7 @@ https://www.instagram.com/limewashbali/'
         </div>
       </div>
       {/* Section 2 */}
-      <div
-        className='py-6 xl:py-24 bg-cover bg-bot'
-        style={{ backgroundImage: `url(${bottomBackground})` }}
-      >
+      <div className='py-6 xl:py-24 bg-cover bg-bot'>
         <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12 xl:mb-24 inter'>
           Why Limewash?
         </h2>
