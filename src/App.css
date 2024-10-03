@@ -724,8 +724,8 @@ video {
   font-weight: 700;
 }
 
-.font-thin {
-  font-weight: 100;
+.font-light {
+  font-weight: 300;
 }
 
 .italic {
@@ -768,7 +768,7 @@ video {
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -776,6 +776,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .hover\:bg-blue-700:hover {
@@ -833,6 +838,10 @@ body {
     align-items: center;
   }
 
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -857,24 +866,15 @@ body {
     line-height: 2.5rem;
   }
 
-  .lg\:leading-tight {
-    line-height: 1.25;
+  .lg\:leading-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:mx-24 {
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-
   .xl\:my-24 {
     margin-top: 6rem;
     margin-bottom: 6rem;
-  }
-
-  .xl\:mt-24 {
-    margin-top: 6rem;
   }
 
   .xl\:mb-24 {

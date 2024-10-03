@@ -5,7 +5,7 @@ const BenefitComponent = ({ src, description }) => {
         <img src={src} alt='' className='w-20 h-20' />
       </div>
       <div>
-        <p className='text-[#3a3a3a]'>{description}</p>
+        <p className='text-[#3a3a3a] inter'>{description}</p>
       </div>
     </div>
   );

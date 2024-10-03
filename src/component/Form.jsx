@@ -15,7 +15,7 @@ function Form() {
   return (
     <div className='w-full flex items-center justify-center p-8 backdrop-blur-2xl rounded-xl overflow-hidden md:w-[75%] xl:w-5/6'>
       <form onSubmit={handleSubmit} className='w-full max-w-lg rounded'>
-        <h2 className='text-3xl font-bold mb-6 text-gray-800 text-center '>
+        <h2 className='text-3xl font-bold mb-6 text-gray-800 text-center lg:text-4xl inter'>
           Contact Form
         </h2>
 
@@ -26,7 +26,7 @@ function Form() {
             id='name'
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className='rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
+            className='inter rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
             placeholder='Name:'
             required
           />
@@ -39,7 +39,7 @@ function Form() {
             id='phone'
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className='rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
+            className='inter rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
             placeholder='Phone number:'
             required
           />
@@ -52,7 +52,7 @@ function Form() {
             id='email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className='rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
+            className='inter rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
             placeholder='Email:'
             required
           />
@@ -64,7 +64,7 @@ function Form() {
             id='message'
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className='rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
+            className='inter rounded-md w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline'
             placeholder='Message:'
             required
           ></textarea>
@@ -74,7 +74,7 @@ function Form() {
         <div className='flex items-center justify-between'>
           <button
             type='submit'
-            className='bg-[#C06044] hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-md w-full'
+            className='inter bg-[#C06044] hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-md w-full'
           >
             Send Message
           </button>

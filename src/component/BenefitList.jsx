@@ -49,7 +49,7 @@ const itemList = [
 
 const BenefitList = () => {
   return (
-    <div className='w-full gap-8 grid px-12 lg:px-0 lg:grid-cols-4 items-start justify-items-center xl:px-8'>
+    <div className='w-full gap-8 grid px-12 lg:px-0 lg:grid-cols-4 items-start justify-items-center xl:px-8 lg:gap-24'>
       {itemList.map((item, index) => (
         <BenefitComponent
           key={index}
