@@ -1,8 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import backgroundImage from "./assets/limewash-bg.webp";
 import limewashLogo from "./assets/limewash-logo.svg";
 import instagram from "./assets/icons/instagram.svg";
 import bottomBackground from "./assets/bottom-bg.webp";
@@ -13,10 +10,7 @@ function App() {
   return (
     <div>
       {/* Section 1 */}
-      <div
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-        className='pb-6 lg:h-screen bg-cover '
-      >
+      <div className='pb-6 lg:h-screen bg-cover bg-top'>
         {/* Navbar */}
         <div className='flex justify-between w-full p-4 lg:px-24'>
           {/* Logo */}
@@ -48,7 +42,7 @@ https://www.instagram.com/limewashbali/'
       </div>
       {/* Section 2 */}
       <div
-        className='py-6 xl:py-24 bg-cover'
+        className='py-6 xl:py-24 bg-cover bg-bot'
         style={{ backgroundImage: `url(${bottomBackground})` }}
       >
         <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12 xl:mb-24 inter'>

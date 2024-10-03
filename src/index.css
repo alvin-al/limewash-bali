@@ -20,3 +20,15 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+.bg-top {
+  background-image: url("src/assets/limewash-bg.webp"); /* Ganti dengan path yang benar */
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-bottom {
+  background-image: url("src/assets/bottom-bg.webp"); /* Ganti dengan path yang benar */
+  background-size: cover;
+  background-position: center;
+}
