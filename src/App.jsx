@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import backgroundImage from "./assets/limewash-bg.png";
 import limewashLogo from "./assets/limewash-logo.svg";
-import { FaInstagramSquare } from "react-icons/fa";
+import instagram from "./assets/icons/instagram.svg";
 import Form from "./component/Form.jsx";
 import BenefitList from "./component/BenefitList.jsx";
 
@@ -27,7 +27,7 @@ function App() {
               href='
 https://www.instagram.com/limewashbali/'
             >
-              <FaInstagramSquare className='w-10 h-10 fill-white' />
+              <img src={instagram} alt='' className='w-10 h-10 fill-white' />
             </a>
           </div>
         </div>
@@ -35,7 +35,7 @@ https://www.instagram.com/limewashbali/'
         <div className='w-full flex flex-col items-center px-6 lg:flex-row lg:px-24 lg:py-0 lg:items-center h-full'>
           {/* Teks */}
           <div className='flex text-center py-24 w-full lg:text-left md:mx-32 lg:mx-0 lg::w-1/2'>
-            <p className='text-3xl font-light italic text-[#3A3A3A] xl:pr-32 lg:leading-tight lg:w-3/4 lg:text-4xl'>
+            <p className='text-3xl font-thin italic text-[#3A3A3A] xl:pr-12 lg:leading-tight lg:w-3/4 lg:text-4xl'>
               Looking for eco-friendly, easy to apply paint for domestic or
               commercial application that also offers a unique aesthetic finish?
             </p>
@@ -45,7 +45,7 @@ https://www.instagram.com/limewashbali/'
         </div>
       </div>
       {/* Section 2 */}
-      <div className='py-6'>
+      <div className='py-6 xl:my-24'>
         <h2 className='text-4xl font-bold text-center text-[#3A3A3A] mb-12'>
           Why Limewash?
         </h2>
